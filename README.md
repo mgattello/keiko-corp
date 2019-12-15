@@ -21,9 +21,11 @@ Suggestion from PageSpeed:
     - CSS: I'll delete the unecessary code and merge the files in 1 if possible
     - JS: I'll merge all the files if possible
 
-    >   reset.css empty file not needed
-    >   scrollTo.js not needed
-    >   I used the Above the fold loading technique, for loading owl.carosuel, theme and transitions   used only at the end of the website
+>   reset.css empty file not needed
+
+>   scrollTo.js not needed
+
+>   I used the Above the fold loading technique, for loading owl.carosuel, theme and transitions   used only at the end of the website
 
 Doing so will help me to reduce the total requests and preventing interuption during the creation of the Render Tree.
 
