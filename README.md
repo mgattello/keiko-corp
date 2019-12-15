@@ -10,7 +10,7 @@ Suggestion from PageSpeed:
 
 ![mobile_suggestion](/img/a1.png) ![desktop_suggestion](/img/b1.png)
 
-### Plan
+## Plan
 
 1. It's clear that the images are the main problem in this website. They are too heavy and not compressed. I'm going to delete the metadata and compress the images.
 
@@ -33,7 +33,7 @@ Doing so will help me to reduce the total requests and preventing interuptions d
 
 #### Action
 
->   Bin: reset.css, scrollTo.js, jquery (CDN used), ajaxchimp.js (CDN used), nicescroll.js (CDN used), wow.js (CDN used), bootstrap.css (CDN used), animate.css (CDN used), parallex.js *, 
+>   Bin: reset.css, scrollTo.js, jquery (CDN used), ajaxchimp.js (CDN used), nicescroll.js (CDN used), wow.js (CDN used), bootstrap.css (CDN used), animate.css (CDN used), parallex.js *
 
 * parallelx.js: (although is used in the intro for creating an animation, I think removing it will be more beneficial for the overall performance, considering that is used only for a small animation and creating a weird effect when you open the page. )
 
@@ -43,7 +43,7 @@ Doing so will help me to reduce the total requests and preventing interuptions d
 #### Action
 
 >   `<script defer>` for ajaxchimp.js 
->   `<script async>` for carousel, wow and nicescroll
+>   `<script async>` for carousel and nicescroll
 
 
 6. Minify HMTL, CSS and JS files
