@@ -22,11 +22,14 @@ Suggestion from PageSpeed:
     - JS: I'll merge all the files if possible
 
     >   reset.css empty file not needed
-    >   scrollTo.js not neededs
+    >   scrollTo.js not needed
+    >   I used the Above the fold loading technique, for loading owl.carosuel, theme and transitions   used only at the end of the website
 
 Doing so will help me to reduce the total requests and preventing interuption during the creation of the Render Tree.
 
 4. Check if I could use `<script async>` or `<script defer>`
+
+    >   jQuery must be loaded 
 
 5. Check if I could use media query
 
