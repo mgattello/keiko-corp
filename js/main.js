@@ -141,7 +141,6 @@ $(document).ready(function(){
 
 
 
-
 	//Popup video
 	$('#play_video').click(function(e){
 		e.preventDefault();	
